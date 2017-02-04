@@ -1,0 +1,272 @@
+html, body, .box {
+  height: 100%;
+  width: 100%; }
+
+.Signin,
+.home,
+.register {
+  height: 100%;
+  width: 100%;
+  background: url("../images/Login.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center; }
+  .Signin h2,
+  .home h2,
+  .register h2 {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    color: #fff;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    z-index: 10; }
+    .Signin h2 p,
+    .home h2 p,
+    .register h2 p {
+      font-size: 16px; }
+  .Signin .home-dl dt,
+  .home .home-dl dt,
+  .register .home-dl dt {
+    margin-top: 150px;
+    height: auto;
+    width: 100%; }
+    .Signin .home-dl dt img,
+    .home .home-dl dt img,
+    .register .home-dl dt img {
+      height: auto;
+      width: 100%; }
+  .Signin .home-dl dd,
+  .home .home-dl dd,
+  .register .home-dl dd {
+    padding: 20px 0;
+    color: #1F1C27;
+    text-align: center;
+    background: #FFFFFF;
+    line-height: 20px;
+    font-size: 16px; }
+    .Signin .home-dl dd div,
+    .home .home-dl dd div,
+    .register .home-dl dd div {
+      color: #D5D5D7;
+      font-size: 14px; }
+
+.home-div {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.8; }
+
+.home-but {
+  position: absolute;
+  bottom: 22px;
+  left: 10%;
+  width: 80%;
+  height: 44px;
+  border-radius: 22px;
+  background: #0C76DC;
+  border-color: #0EAAFF;
+  z-index: 10;
+  color: #fff;
+  font-weight: 700; }
+
+.Signin-ul,
+.register-ul {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  z-index: 10; }
+  .Signin-ul li,
+  .register-ul li {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    margin-top: 20px; }
+    .Signin-ul li input,
+    .register-ul li input {
+      border: none;
+      background: none;
+      color: #fff;
+      text-align: center; }
+
+.Signin-but {
+  bottom: 150px; }
+
+.register-but {
+  bottom: 80px; }
+
+.Signin-div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 90px;
+  z-index: 10; }
+  .Signin-div span {
+    display: inline-block;
+    width: 35%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff; }
+    .Signin-div span:nth-child(1) {
+      background: #3C4EB4;
+      border-radius: 22px 0 0 22px; }
+    .Signin-div span:nth-child(2) {
+      background: #E2402B;
+      border-radius: 0 22px 22px 0; }
+
+.Signin-p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 40px;
+  z-index: 10;
+  color: #fff; }
+
+.news {
+  height: 100%;
+  width: 100%; }
+  .news h2 {
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5px; }
+    .news h2 span {
+      float: left;
+      padding-left: 20px; }
+    .news h2 i {
+      float: right;
+      padding-right: 20px; }
+
+.news {
+  background: #1F1923; }
+  .news .news-div {
+    margin-top: 48px;
+    text-align: center; }
+    .news .news-div h3 {
+      color: #fff;
+      font-size: 18px; }
+    .news .news-div ul {
+      color: #fff;
+      font-size: 12px; }
+      .news .news-div ul li {
+        line-height: 20px; }
+    .news .news-div button {
+      color: #fff;
+      margin-top: 20px;
+      height: 44px;
+      width: 40%;
+      background: #DB0D3B;
+      border-radius: 22px;
+      border-color: #DB0D3B;
+      margin-bottom: 55px; }
+  .news .slide-o .home-dl {
+    width: 45%; }
+    .news .slide-o .home-dl:nth-child(1) {
+      margin-left: 10px;
+      float: left; }
+    .news .slide-o .home-dl:nth-child(2) {
+      margin-right: 10px;
+      float: right; }
+    .news .slide-o .home-dl dt {
+      width: 100%;
+      height: 190px; }
+      .news .slide-o .home-dl dt img {
+        height: 100%;
+        width: 100%; }
+    .news .slide-o .home-dl dd {
+      background: #fff;
+      padding-top: 10px; }
+      .news .slide-o .home-dl dd h3 {
+        font-weight: 700;
+        line-height: 20px;
+        color: #000; }
+      .news .slide-o .home-dl dd ul {
+        line-height: 15px;
+        font-size: 12px;
+        color: #E3E2E4; }
+
+.news2 {
+  height: 100%;
+  width: 100%; }
+  .news2 .news2-div {
+    margin: 12px;
+    margin-bottom: 0;
+    background: #fff;
+    border-radius: 5px; }
+    .news2 .news2-div h3 {
+      text-align: center;
+      padding-top: 20px;
+      font-weight: 700;
+      font-size: 18px; }
+      .news2 .news2-div h3 p {
+        margin-top: 5px; }
+    .news2 .news2-div .news2-dll {
+      text-align: center;
+      margin-top: 10px; }
+      .news2 .news2-div .news2-dll dt {
+        display: inline-block;
+        text-align: center;
+        width: 90%; }
+        .news2 .news2-div .news2-dll dt img {
+          height: auto;
+          width: 100%; }
+      .news2 .news2-div .news2-dll dd {
+        margin-top: 23px;
+        font-size: 12px;
+        color: #B2B0B4;
+        line-height: 16px; }
+    .news2 .news2-div .news2-p {
+      margin-top: 10px;
+      height: 20px;
+      width: 100%; }
+      .news2 .news2-div .news2-p dl {
+        float: left; }
+        .news2 .news2-div .news2-p dl dt {
+          margin-left: 14px;
+          float: left;
+          height: 13px;
+          width: 13px; }
+          .news2 .news2-div .news2-p dl dt img {
+            width: 100%;
+            height: 100%; }
+        .news2 .news2-div .news2-p dl dd {
+          margin-left: 12px;
+          line-height: 20px;
+          float: left;
+          font-size: 12px;
+          color: #B2B0B4; }
+  .news2 .news2-dl {
+    padding-top: 20px;
+    height: 70px;
+    background: #fff;
+    margin: 0 12px; }
+    .news2 .news2-dl dt {
+      margin-left: 15px;
+      float: left;
+      height: 38px;
+      width: 38px; }
+      .news2 .news2-dl dt img {
+        width: 100%;
+        height: 100%; }
+    .news2 .news2-dl dd {
+      margin-left: 8px;
+      float: left;
+      font-size: 14px;
+      color: #000;
+      font-weight: 700; }
+      .news2 .news2-dl dd p {
+        font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */
